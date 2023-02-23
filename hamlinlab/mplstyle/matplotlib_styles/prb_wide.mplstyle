@@ -1,0 +1,4 @@
+# To be used in conjuction with prb_defaults.mplstyle.
+
+# This corresponds to a 1.5 column wide figure.
+figure.figsize:  5.0625, 3
