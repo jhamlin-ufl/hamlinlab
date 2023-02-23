@@ -4,17 +4,12 @@ Here are references to commonly used matplotlib styles.
 
 import pathlib
 
-__all__ = [
-    'prb_regular',
-    'prb_wide',
-    'prb_verywide',
-    'prb_tall'
-    ]
+# Path to the directory that holds this file
+here = pathlib.Path(__file__).parent
 
-cwd = pathlib.Path.cwd() # The current working directory
-
-# Here we specify the folder where our custom styles live
-mpl_config_dir = cwd / 'matplotlib_styles'
+# Styles should be kept inside a folder called matplotlib_styles.
+# that is in the same direcotry as this module.
+mpl_config_dir = here / 'matplotlib_styles'
 
 prb_regular = (
     mpl_config_dir / 'prb_defaults.mplstyle',
