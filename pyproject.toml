@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hamlinlab"
-version = "0.1.0"
+version = "0.1.1"
 description = "Tools for common data analysis tasks in the Hamlin Lab"
 authors = ["jhamlin-ufl <jhamlin@ufl.edu>"]
 
